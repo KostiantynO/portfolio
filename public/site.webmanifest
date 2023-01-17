@@ -1,0 +1,8 @@
+{
+  "name": "KO-portfolio",
+  "short_name": "KO-portfolio",
+  "start_url": ".",
+  "display": "standalone",
+  "theme_color": "#000000",
+  "background_color": "#ffffff"
+}

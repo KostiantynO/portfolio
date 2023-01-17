@@ -1,0 +1,82 @@
+{
+  "countries": {
+    "ids": ["country000000", "country000001"],
+    "entities": {
+      "country000000": {
+        "_id": "country000000",
+        "countryName": {
+          "en": "USA",
+          "full": "United States of America",
+          "ua": "Сполучені Штати Америки"
+        },
+        "citizenship": { "en": "american", "ua": "американець" }
+      },
+      "country000001": {
+        "_id": "country000001",
+        "countryName": { "en": "Ukraine", "full": "Україна", "ua": "Україна" },
+        "citizenship": { "en": "ukrainian", "ua": "українець" }
+      }
+    }
+  },
+  "languages": {
+    "ids": ["language000000", "language000001", "language000002", "language000003"],
+    "entities": {
+      "language000000": {
+        "_id": "language000000",
+        "code": "EN",
+        "languageName": { "en": "English", "us": "US English" }
+      },
+      "language000001": {
+        "_id": "language000001",
+        "code": "UA",
+        "languageName": { "en": "Ukrainian", "ua": "Українська" }
+      },
+      "language000002": {
+        "_id": "language000002",
+        "code": "PL",
+        "languageName": { "en": "Polish", "pl": "Polski" }
+      },
+      "language000003": {
+        "_id": "language000003",
+        "code": "CZ",
+        "languageName": { "en": "Czech", "cz": "Czech" }
+      }
+    }
+  },
+  "currencies": {
+    "ids": [
+      "currency000000",
+      "currency000001",
+      "currency000002",
+      "currency000003",
+      "currency000004"
+    ],
+    "entities": {
+      "currency000000": {
+        "_id": "currency000000",
+        "code": "USD",
+        "currencyName": { "short": "US Dollar", "en": "United States Dollar", "local": "Dollar" }
+      },
+      "currency000001": {
+        "_id": "currency000001",
+        "code": "EUR",
+        "currencyName": { "short": "Euro", "en": "Euro", "local": "Euro" }
+      },
+      "currency000002": {
+        "_id": "currency000002",
+        "code": "UAH",
+        "currencyName": { "short": "Hryvnia", "en": "Ukrainian hryvnia", "local": "Гривня" }
+      },
+      "currency000003": {
+        "_id": "currency000003",
+        "code": "PZT",
+        "currencyName": { "short": "Zloty", "en": "Poland zloty", "local": "Zloty" }
+      },
+      "currency000004": {
+        "_id": "currency000004",
+        "code": "CYN",
+        "currencyName": { "short": "Yuan", "en": "Chinese yuan", "local": "Yuan" }
+      }
+    }
+  }
+}
