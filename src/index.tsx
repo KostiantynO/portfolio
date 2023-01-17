@@ -8,7 +8,7 @@ const { root } = getRefs();
 
 createRoot(root).render(
   <StrictMode>
-    <BrowserRouter basename="/portfolio/">
+    <BrowserRouter basename="/portfolio">
       <AppRouter />
     </BrowserRouter>
   </StrictMode>
